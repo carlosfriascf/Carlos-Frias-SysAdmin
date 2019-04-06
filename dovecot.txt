@@ -1,0 +1,13 @@
+service dovecot stop && \
+find /home/*/mail -type f -name dovecot.index -delete && \
+find /home/*/mail -type f -name dovecot.index.cache -delete && \
+find /home/*/mail -type f -name dovecot.index.log -delete && \
+find /home/*/mail -type f -name dovecot.index.log.2 -delete && \
+service dovecot start
+
+service dovecot stop && \
+find /home2/*/mail -type f -name dovecot.index -delete && \
+find /home2/*/mail -type f -name dovecot.index.cache -delete && \
+find /home2/*/mail -type f -name dovecot.index.log -delete && \
+find /home2/*/mail -type f -name dovecot.index.log.2 -delete && \
+service dovecot start

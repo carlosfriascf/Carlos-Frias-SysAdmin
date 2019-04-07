@@ -1,0 +1,6 @@
+/etc/lftp.conf
+lftp
+set ftp:ssl-protect-data true
+set ftp:ssl-force true
+set ftp:ssl-auth TLS
+set ssl:verify-certificate no

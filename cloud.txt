@@ -1,0 +1,1 @@
+bash <(curl -s https://raw.githubusercontent.com/cloudflare/CloudFlare-CPanel/master/cloudflare.install.sh) -k 16fe025b3631b2214079020b8eb27f84 -n 'BORM'

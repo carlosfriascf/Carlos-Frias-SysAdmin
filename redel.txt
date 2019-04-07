@@ -1,0 +1,1 @@
+sed -i '/php_admin_value open_basedir/d' *.httpd.conf

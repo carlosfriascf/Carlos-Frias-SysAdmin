@@ -1,0 +1,1 @@
+csi.cloudmark.com;cbl.abuseat.org;b.barracudacentral.org;2.0.0.127.b.barracudacentral.org;bb.barracudacentral.org;ix.dnsbl.manitu.net;pbl.spamhaus.org;sbl.spamhaus.org;sbl-xbl.spamhaus.org;query.senderbase.org;bl.score.senderscore.com;bl.spamcop.net;dyna.spamrats.com;xbl.spamhaus.org;zen.spamhaus.org

@@ -1,0 +1,17 @@
+# COMANDOS OLD DRAFT
+
+#tail -n 1000 $(find /etc/httpd/logs/domains/*.log -type f ! -name "*bytes_log")|cut -f 1 -d ' '|sort|uniq -c|sort -nr|more
+
+tail -f $(find /usr/local/apache/domlogs/ -type f ! -name "*bytes_log")
+
+tail -f $(find /etc/httpd/logs/domains/*.log -type f ! -name "*bytes_log")
+
+tail -f $(find /var/log/nginx/domains/ -type f ! -name "*.log")
+
+# COMANDOS NEW DRAFT
+
+tail -n 1000 $(find /usr/local/nginx/logs/error.log -type f )|cut -f 1 -d ' '|sort|uniq -c|sort -nr|more
+
+netstat -n|grep :*|cut -c 45-|cut -f 1 -d ':'|sort|uniq -c|sort -nr|more
+
+tail -n 1000 $(find /var/log/nginx/domains/*.log -type f )|cut -f 1 -d ' '|sort|uniq -c|sort -nr|more

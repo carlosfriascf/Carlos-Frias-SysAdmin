@@ -1,0 +1,15 @@
+mysql -uadmin -p$(</etc/psa/.psa.shadow )
+
+   49  plesk bin repair
+   50  plesk bin admin repair
+   51  plesk bin repair
+   52  plesk bin repair hlep
+   53  plesk bin repair help
+   54  plesk bin repair --help
+   55  plesk bin repair -y --all
+   56  plesk bin repair --all -y
+
+  36  ps auwx | grep -i mysql
+   37  /etc/init.d/mysqld start
+   38  MYSQL_PWD=`cat /etc/psa/.psa.shadow` mysql_upgrade -uadmin
+   39  mysqlcheck -uadmin -p$(</etc/psa/.psa.shadow ) --auto-repair --all-databases

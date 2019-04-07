@@ -1,0 +1,1 @@
+rsync -avz --progress x.x.x.x:/home /home2

@@ -1,0 +1,7 @@
+sed -i 's/utf8mb4_unicode_520_ci/utf8mb4_unicode_ci/g' *.sql
+
+sed -i '/phpmyadmin.inc/a include /sec.conf;' archivo.conf
+
+Eliminar 
+
+sed -i '/try_files/a include /sec.conf;' *.conf

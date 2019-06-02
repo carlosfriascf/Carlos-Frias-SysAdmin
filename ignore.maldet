@@ -1,8 +1,0 @@
-^/home/virtfs*
-^/home/nginx/nginx_client*
-^/var/lib/nginx/cache*
-^/home/lscache*
-/home/virtfs
-/home/nginx/nginx_client
-/var/lib/nginx/cache
-/home/lscache

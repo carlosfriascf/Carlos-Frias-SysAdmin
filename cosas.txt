@@ -1,6 +1,0 @@
-http://repo.iotti.biz/CentOS/7/noarch/lux-release-7-1.noarch.rpm
- /var/lib/maldetect/maldet
-
-cd /tmp
-wget http://www.rfxn.com/downloads/maldetect-current.tar.gz
-tar -xzvf maldetect-current.tar.gz

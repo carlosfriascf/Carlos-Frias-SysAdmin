@@ -1,5 +1,0 @@
-dd if=/dev/zero of=/var/swap.img bs=1G count=4
-chmod 0600 /var/swap.img
-mkswap /var/swap.img -f
-swapon /var/swap.img
-# /var/swap.img   swap    swap    sw  0   0

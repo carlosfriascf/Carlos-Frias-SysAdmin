@@ -1,0 +1,59 @@
+protected-mode yes
+
+port 6379
+
+bind 127.0.0.1
+
+tcp-backlog 65536
+
+timeout 300
+
+tcp-keepalive 60
+
+daemonize yes
+
+pidfile /run/redis-server.pid
+
+loglevel notice
+
+logfile /var/log/redis/redis-server.log
+
+databases 16
+
+repl-diskless-sync no
+
+repl-diskless-sync-delay 5
+
+repl-disable-tcp-nodelay no
+
+lua-time-limit 5000
+
+slowlog-max-len 128
+
+latency-monitor-threshold 0
+
+hash-max-ziplist-entries 512
+
+hash-max-ziplist-value 64
+
+list-max-ziplist-size -2
+
+list-compress-depth 0
+
+set-max-intset-entries 512
+
+zset-max-ziplist-entries 128
+
+zset-max-ziplist-value 64
+
+maxclients 10000
+
+rdbcompression no
+
+rdbchecksum no
+
+dir /var/lib/redis
+
+maxmemory-policy noeviction
+
+stop-writes-on-bgsave-error yes
